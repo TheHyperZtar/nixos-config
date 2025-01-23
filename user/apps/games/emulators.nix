@@ -1,7 +1,6 @@
 {pkgs, ...}: {
   imports = [./cores];
   home.packages = with pkgs; [
-    cemu
     dolphin-emu
     easyrpg-player
     pcsx2

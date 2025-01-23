@@ -71,7 +71,6 @@
   hardware = {
     cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
     amdgpu = {
-      opencl.enable = true;
       legacySupport.enable = true;
     };
     graphics = {
