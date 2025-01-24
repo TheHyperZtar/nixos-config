@@ -10,7 +10,6 @@
         enable = true;
         extraConfig = {
           "99-disable-suspend" = {
-            
             "monitor.alsa.rules" = [
               {
                 matches = [
