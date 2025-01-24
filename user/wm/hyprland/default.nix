@@ -60,7 +60,6 @@
         touchpad = {
           disable_while_typing = false;
           natural_scroll = false;
-          middle_button_emulation = true;
         };
       };
       general = {
