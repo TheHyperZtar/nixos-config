@@ -67,12 +67,12 @@
         variant256Colors = true;
       };
       mangohud.enable = true;
+      nixcord.enable = true;
       nixvim = {
         enable = true;
         plugin = "base16-nvim";
       };
       spicetify.enable = true;
-      vesktop.enable = true;
       vscode.enable = true;
     };
   };

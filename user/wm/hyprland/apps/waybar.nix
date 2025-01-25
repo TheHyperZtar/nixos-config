@@ -149,6 +149,7 @@
             car = "";
             default = ["󰕿" "󰖀" "󰕾"];
           };
+          max-volume = 150;
           on-click = "pavucontrol";
         };
         "clock" = {
