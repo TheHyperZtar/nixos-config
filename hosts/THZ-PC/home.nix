@@ -58,7 +58,6 @@
     qalculate-gtk
     qbittorrent
     r2modman
-    vesktop
     vscodium
     wev
     yt-dlg
