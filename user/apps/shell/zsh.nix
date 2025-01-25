@@ -9,6 +9,7 @@
       ll = "ls -l";
       switch = "nh os switch";
       update = "nh os switch -u";
+      cd = "z";
     };
     oh-my-zsh = {
       enable = true;
