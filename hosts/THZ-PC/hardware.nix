@@ -10,7 +10,7 @@
 
   boot = {
     supportedFilesystems = ["ntfs" "exfat" "ext4" "fat32" "btrfs"];
-    tmp.cleanOnBoot = true;
+    tmp.cleanOnBoot = false;
     initrd.availableKernelModules = ["xhci_pci" "ahci" "nvme" "usbhid" "usb_storage" "uas" "sd_mod"];
     kernelModules = ["kvm-intel"];
   };
@@ -60,7 +60,7 @@
     }
   ];
 
-  systemd.tpm2.enable = false;
+  systemd.tpm2.enable = true;
 
   services = {
     xserver = {
