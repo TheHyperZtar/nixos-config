@@ -12,7 +12,6 @@
         permissionsViewer.enable = true;
         viewIcons.enable = true;
         webKeybinds.enable = true;
-        webRichPresence.enable = true;
         webScreenShareFixes.enable = true;
       };
     };
