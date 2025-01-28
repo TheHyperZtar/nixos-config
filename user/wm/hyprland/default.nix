@@ -6,11 +6,12 @@
   imports = [
     ./../../apps/terminal/kitty.nix
     ./apps/cliphist.nix
+    ./apps/dunst.nix
     ./apps/hyprlock.nix
     ./apps/waybar.nix
     ./apps/wlogout
     ./apps/rofi.nix
-    ./apps/swappy.nix
+    #./apps/swappy.nix
     ./apps/swaync.nix
     ./apps/packages.nix
   ];

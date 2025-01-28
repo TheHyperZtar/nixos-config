@@ -53,6 +53,7 @@
         enable = true;
         rainbow.enable = true;
       };
+      dunst.enable = true;
       firefox = {
         enable = true;
         firefoxGnomeTheme.enable = true;
