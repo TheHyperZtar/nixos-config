@@ -53,7 +53,6 @@
         enable = true;
         rainbow.enable = true;
       };
-      dunst.enable = true;
       firefox = {
         enable = true;
         firefoxGnomeTheme.enable = true;
@@ -67,6 +66,7 @@
         enable = true;
         variant256Colors = true;
       };
+      mako.enable = true;
       mangohud.enable = true;
       nixcord.enable = true;
       nixvim = {

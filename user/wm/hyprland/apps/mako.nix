@@ -1,5 +1,5 @@
 {...}: {
-  services.dunst = {
+  services.mako = {
     enable = true;
   };
 }
