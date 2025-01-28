@@ -11,8 +11,8 @@
     ./apps/waybar.nix
     ./apps/wlogout
     ./apps/rofi.nix
-    #./apps/swappy.nix
-    ./apps/swaync.nix
+    ./apps/swappy.nix
+    #./apps/swaync.nix
     ./apps/packages.nix
   ];
   xdg = {
