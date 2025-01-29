@@ -4,7 +4,7 @@
     enable = true;
     settings = {
       global = {
-        offset = "(10, 50)";
+        offset = "(15, 15)";
         dmenu = "rofi -dmenu";
         corner_radius = 10;
       };
