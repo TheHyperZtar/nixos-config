@@ -6,8 +6,9 @@
   imports = [
     ./../../apps/terminal/kitty.nix
     ./apps/cliphist.nix
+    ./apps/dunst.nix
     ./apps/hyprlock.nix
-    ./apps/mako.nix
+    #./apps/mako.nix
     ./apps/waybar.nix
     ./apps/wlogout
     ./apps/rofi.nix
