@@ -5,7 +5,7 @@
     settings = {
       global = {
         width = "(0, 500)";
-        offset = "(15, 15)";
+        offset = "(20, 20)";
         dmenu = "rofi -dmenu";
         corner_radius = 10;
       };
