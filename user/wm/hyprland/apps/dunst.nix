@@ -12,6 +12,8 @@
         offset = "(20, 20)";
         dmenu = "rofi -dmenu -no-show-icons -p Dunst -config ~/.config/rofi/config-long.rasi";
         corner_radius = 10;
+        min_icon_size = 64;
+        max_icon_size = 0;
       };
     };
   };
