@@ -40,9 +40,9 @@
         orientation = mkLiteral "vertical";
         cursor = mkLiteral "default";
         spacing = mkLiteral "0px";
-        border = mkLiteral "${config.wayland.windowManager.hyprland.settings.general.border_size}px";
+        border = mkLiteral "${builtins.toString config.wayland.windowManager.hyprland.settings.general.border_size}px";
         border-color = "@border-color";
-        border-radius = mkLiteral "${config.wayland.windowManager.hyprland.settings.decoration.rounding}px";
+        border-radius = mkLiteral "${builtins.toString config.wayland.windowManager.hyprland.settings.decoration.rounding}px";
         background-color = mkLiteral "@bg";
       };
       "mainbox" = {
