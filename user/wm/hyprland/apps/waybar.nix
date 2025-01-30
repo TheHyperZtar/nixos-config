@@ -123,26 +123,26 @@
           on-click = "activate";
         };
         "cpu" = {
-          format = "{usage}%  ";
+          format = " {usage}%";
           on-click = "kitty -e btop";
           tooltip = false;
         };
         "memory" = {
-          format = "/ {}%  ";
+          format = "/  {}%";
           on-click = "kitty -e btop";
         };
         "backlight" = {
-          format = "{percent}% {icon}";
+          format = "{icon} {percent}%";
           format-icons = ["" "" "" "" "" "" "" "" ""];
           tooltip = false;
         };
         "battery" = {
-          format = "{capacity}% {icon}";
+          format = "{icon} {capacity}%";
           format-icons = ["" "" "" "" ""];
         };
         "pulseaudio" = {
-          format = "{volume}% {icon} {format_source}";
-          format-bluetooth = "{volume}% {icon} {format_source}";
+          format = "{icon} {volume}% {format_source}";
+          format-bluetooth = "{icon} {volume}% {format_source}";
           format-bluetooth-muted = "󰝟 {icon} {format_source}";
           format-muted = "󰝟 {format_source}";
           format-source = "{volume}% ";
