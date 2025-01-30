@@ -1,4 +1,4 @@
-{...}: {
+{config, ...}: {
   programs.fastfetch = {
     enable = true;
     settings = {
@@ -152,11 +152,10 @@
       ];
     };
   };
-  home.file.".config/fastfetch/nixos.png".source = ./nixos.png;
   home.file.".config/fastfetch/small.jsonc".text = ''
     {
       "logo": {
-      "source": "~/.config/fastfetch/nixos.png",
+      "source": "${config.programs.fastfetch.setting.logo.source}",
       "type": "kitty-direct",
       "height": 6,
         "width": 12,

@@ -2,12 +2,7 @@
   imports = [
     ./wm/hyprland
     ./apps/browser/firefox.nix
-    ./apps/cli/btop.nix
-    ./apps/cli/cava.nix
-    ./apps/cli/fastfetch
-    ./apps/cli/git.nix
-    ./apps/cli/starship.nix
-    ./apps/cli/zoxide.nix
+    ./apps/cli
     ./apps/editor/nvim.nix
     ./apps/editor/vscode.nix
     ./apps/games
