@@ -67,7 +67,6 @@
           tooltip = false;
         };
         "custom/dunst" = {
-          format = "{}";
           exec = "waybar-dunst";
           interval = 1;
           on-click = "dunstctl set-paused toggle";
