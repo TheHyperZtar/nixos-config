@@ -7,6 +7,7 @@
   nixpkgs = {
     config = {
       allowUnfree = true;
+      permittedInsecurePackages = ["SDL_ttf-2.0.11"];
     };
   };
   xdg = {
