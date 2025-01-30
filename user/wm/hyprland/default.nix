@@ -124,18 +124,17 @@
         "$mainMod, Q, killactive"
         "$mainMod, F, fullscreen"
         "$mainMod, E, exec, nemo"
-        "$mainMod, T, togglefloating"
-        "$mainMod, B, exec, firefox"
+        "$mainMod, W, exec, firefox"
         "$mainMod, R, exec, rofi -show drun -show-icons"
-        "$mainMod, PERIOD, exec, rofimoji --use-icons -a copy --max-recent 10 --skin-tone light --no-frecency"
-        "$mainMod, S, togglesplit"
+        "$mainMod, D, exec, rofimoji --use-icons -a copy --max-recent 10 --skin-tone light --no-frecency"
         "$mainMod SHIFT, F, fullscreen, 1"
         "$mainMod, P, exec, wlogout"
         ", XF86PowerOff, exec, wlogout"
+        ''$mainMod, S, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | wl-copy''
         '', PRINT, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | swappy -f -''
         ''$mainMod, PRINT, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | wl-copy''
         "$mainMod SHIFT, B, exec, pkill waybar;waybar"
-        "$mainMod, Menu, exec, cliphist list | rofi -dmenu -no-show-icons -p Clipboard -config ~/.config/rofi/config-long.rasi| cliphist decode | wl-copy"
+        "$mainMod SHIFT, D, exec, cliphist list | rofi -dmenu -no-show-icons -p Clipboard -config ~/.config/rofi/config-long.rasi| cliphist decode | wl-copy"
         "$mainMod, mouse_down, workspace, e+1"
         "$mainMod, mouse_up, workspace, e-1"
         "$mainMod, left, movefocus, l"

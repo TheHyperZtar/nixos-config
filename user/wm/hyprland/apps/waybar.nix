@@ -16,7 +16,7 @@
         output = ["Sceptre Tech Inc Sceptre M24 0x00000001" "Lenovo Group Limited LEN-A3/V1-E 0x00000001"];
         modules-left = ["group/shortcuts" "hyprland/workspaces"];
         modules-center = ["clock" "custom/spotify"];
-        modules-right = ["custom/update" "battery" "backlight" "pulseaudio" "custom/clipboard" "tray" "custom/powermenu"];
+        modules-right = ["custom/update" "battery" "backlight" "pulseaudio" "custom/clipboard" "custom/dunst" "tray" "custom/powermenu"];
         "custom/apps" = {
           format = "";
           on-click = "sleep 0.1 ; rofi -show drun -show-icons";
@@ -66,7 +66,14 @@
           on-click-middle = "sleep 0.1 && cliphist wipe";
           tooltip = false;
         };
-        "custom/notification" = {
+        "custom/dunst" = {
+          format = "{}";
+          exec = "waybar-dunst";
+          interval = 1;
+          on-click = "dunstctl set-paused toggle";
+          on-click-right = "dunstctl history-pop";
+        };
+        "custom/swaync" = {
           tooltip = false;
           format = "{icon}";
           format-icons = {
@@ -204,7 +211,8 @@
       #network,
       #pulseaudio,
       #tray,
-      #custom-notification,
+      #custom-swaync,
+      #custom-dunst,
       #custom-wallpaper,
       #custom-spotify,
       #custom-apps,
