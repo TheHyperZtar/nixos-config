@@ -69,6 +69,7 @@
         "custom/dunst" = {
           exec = "waybar-dunst";
           interval = 1;
+          tooltip = false;
           on-click = "dunstctl set-paused toggle";
           on-click-right = "dunstctl history-pop";
         };
