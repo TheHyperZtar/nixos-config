@@ -155,7 +155,7 @@
   home.file.".config/fastfetch/small.jsonc".text = ''
     {
       "logo": {
-      "source": "${config.programs.fastfetch.setting.logo.source}",
+      "source": "${config.programs.fastfetch.settings.logo.source}",
       "type": "kitty-direct",
       "height": 6,
         "width": 12,
