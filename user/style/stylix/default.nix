@@ -59,6 +59,7 @@
         firefoxGnomeTheme.enable = true;
         profileNames = ["TheHyperZtar"];
       };
+      fzf.enable = true;
       gtk = {
         enable = true;
         flatpakSupport.enable = true;
@@ -75,6 +76,7 @@
       };
       spicetify.enable = true;
       vscode.enable = true;
+      yazi.enable = true;
     };
   };
   qt = {
