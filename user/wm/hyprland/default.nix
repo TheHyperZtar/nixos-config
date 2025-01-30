@@ -91,7 +91,7 @@
         };
       };
       animations = {
-        enabled = false;
+        enabled = true;
       };
       misc = {
         disable_hyprland_logo = true;
