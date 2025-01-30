@@ -92,6 +92,14 @@
       };
       animations = {
         enabled = true;
+        animation = [
+          "windows, 1, 5, default"
+          "windowsOut, 1, 5, default, popin 80%"
+          "border, 1, 10, default"
+          "borderangle, 1, 8, default"
+          "fade, 1, 5, default"
+          "workspaces, 1, 5, default"
+        ];
       };
       misc = {
         disable_hyprland_logo = true;
