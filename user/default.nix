@@ -6,9 +6,7 @@
     ./apps/editor/nvim.nix
     ./apps/editor/vscode.nix
     ./apps/games
-    ./apps/multimedia/mpv.nix
-    ./apps/multimedia/obs.nix
-    ./apps/multimedia/spotify.nix
+    ./apps/multimedia
     ./apps/social/nixcord.nix
     ./apps/virtualization/qemu.nix
     ./apps/shell/zsh.nix

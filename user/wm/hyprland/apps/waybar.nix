@@ -16,7 +16,7 @@
         output = ["Sceptre Tech Inc Sceptre M24 0x00000001" "Lenovo Group Limited LEN-A3/V1-E 0x00000001"];
         modules-left = ["group/shortcuts" "hyprland/workspaces"];
         modules-center = ["clock" "custom/spotify"];
-        modules-right = ["custom/update" "battery" "backlight" "pulseaudio" "custom/clipboard" "custom/dunst" "tray" "custom/powermenu"];
+        modules-right = ["battery" "backlight" "pulseaudio" "custom/clipboard" "custom/dunst" "tray" "custom/powermenu"];
         "custom/apps" = {
           format = "";
           on-click = "sleep 0.1 ; rofi -show drun -show-icons";
