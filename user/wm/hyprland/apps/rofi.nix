@@ -100,8 +100,8 @@
         scrollbar = false;
         layout = mkLiteral "vertical";
         reverse = false;
-        #fixed-height = true;
-        #fixed-columns = true;
+        fixed-height = false;
+        fixed-columns = true;
         spacing = mkLiteral "10px";
         background-color = mkLiteral "transparent";
         border = mkLiteral "0px";
