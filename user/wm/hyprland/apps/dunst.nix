@@ -1,11 +1,11 @@
 {config, pkgs, ...}:
 let
   waybar-dunst = pkgs.writeShellScriptBin "waybar-dunst" ''
-    if dunstctl is-paused | grep -q "true"; then
-      echo "{\"text\": \"󰂛\", \"tooltip\": \"Do Not Disturb is ON\", \"class\": \"dnd-on\"}"
-    else
-      echo "{\"text\": \"󰂚\", \"tooltip\": \"Do Not Disturb is OFF\", \"class\": \"dnd-off\"}"
-    fi
+    COUNT=$(dunstctl count waiting)
+    ENABLED=󰂚
+    DISABLED=󰂛
+    if [ $COUNT != 0 ]; then DISABLED=" $COUNT"; fi
+    if dunstctl is-paused | grep -q "false" ; then echo $ENABLED; else echo $DISABLED; fi
   '';
 in
 {
