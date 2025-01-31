@@ -21,6 +21,7 @@ in
         width = "(0, 500)";
         offset = "(20, 20)";
         dmenu = "rofi -dmenu -no-show-icons -p Dunst -config ~/.config/rofi/config-long.rasi";
+        frame_width = config.wayland.windowManager.hyprland.settings.general.border_size;
         corner_radius = config.wayland.windowManager.hyprland.settings.decoration.rounding;
         min_icon_size = 64;
         max_icon_size = 64;
