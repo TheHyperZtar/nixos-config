@@ -130,6 +130,7 @@
         ''SUPER, S, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | wl-copy''
         ''SUPER SHIFT, S, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | swappy -f -''
         "SUPER, D, exec, vesktop"
+        "SUPER, Z, exec, zapzap"
         "SUPER, M, exec, spotify"
         "SUPER, C, exec, hyprpicker -a"
         "SUPER, T, togglefloating,"
