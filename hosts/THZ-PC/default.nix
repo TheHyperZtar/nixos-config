@@ -90,8 +90,6 @@
 
   programs.dconf.enable = true;
 
-  programs.kdeconnect.enable = true;
-
   system.stateVersion = "25.05";
 
   nixpkgs = {
