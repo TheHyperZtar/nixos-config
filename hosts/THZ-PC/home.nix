@@ -37,8 +37,6 @@
       };
     };
   };
-  services.kdeconnect.enable = true;
-
   programs.htop.enable = true;
 
   programs.yt-dlp.enable = true;
