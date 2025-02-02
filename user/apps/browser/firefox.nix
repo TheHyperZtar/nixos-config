@@ -53,7 +53,7 @@
       TheHyperZtar = {
         name = "TheHyperZtar";
         isDefault = true;
-        extensions = with pkgs.nur.repos.rycee; [
+        extensions = with pkgs.nur.repos.rycee.firefox-addons; [
           ublock-origin
           stylus
           return-youtube-dislikes
