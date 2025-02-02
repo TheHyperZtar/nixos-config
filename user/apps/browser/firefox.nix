@@ -3,7 +3,7 @@
   inputs,
   ...
 }: {
-  imports = [inputs.nur.hmModules.nur];
+  imports = [inputs.nur.modules.homeManager.default];
   programs.firefox = {
     enable = true;
     policies = {
