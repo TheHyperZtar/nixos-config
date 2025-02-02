@@ -32,6 +32,11 @@
     hostName = "THZ-PC";
     networkmanager.enable = true;
     useDHCP = lib.mkDefault true;
+    nat.enable = true;
+    firewall = {
+      allowedTCPPorts = [ 53 67 68 ];
+      allowedUDPPorts = [ 53 67 68 ];
+    };
   };
 
   time.timeZone = "America/Mazatlan";
