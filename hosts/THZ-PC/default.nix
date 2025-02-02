@@ -13,7 +13,7 @@
   nix.settings.experimental-features = ["nix-command" "flakes"];
 
   boot = {
-    kernelPackages = pkgs.linuxPackages_latest;
+    kernelPackages = pkgs.linuxPackages_zen;
     loader = {
       timeout = 0;
       grub = {
