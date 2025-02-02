@@ -32,10 +32,6 @@
     hostName = "THZ-PC";
     networkmanager.enable = true;
     useDHCP = lib.mkDefault true;
-    nameservers = [
-      "8.8.8.8"
-      "8.8.4.4"
-    ];
   };
 
   time.timeZone = "America/Mazatlan";
