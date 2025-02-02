@@ -3,7 +3,7 @@
   inputs,
   ...
 }: {
-  #home.file.".mozilla/firefox/TheHyperZtar/chrome".source = ./chrome;
+  imports = [inputs.nur.hmModules.nur];
   programs.firefox = {
     enable = true;
     policies = {
@@ -53,7 +53,7 @@
       TheHyperZtar = {
         name = "TheHyperZtar";
         isDefault = true;
-        extensions = with inputs.firefox-addons.packages.${pkgs.system}; [
+        extensions = with pkgs.nur.repos.rycee; [
           ublock-origin
           stylus
           return-youtube-dislikes
