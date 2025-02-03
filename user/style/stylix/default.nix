@@ -75,7 +75,7 @@
         plugin = "base16-nvim";
       };
       qt.enable = true;
-      spicetify.enable = true;
+      spicetify.enable = false;
       vscode.enable = true;
       yazi.enable = true;
     };
