@@ -44,9 +44,4 @@
     };
   };
   fonts.packages = [pkgs.nerd-fonts.symbols-only pkgs.corefonts];
-  qt = {
-    enable = true;
-    platformTheme = "qt5ct";
-    style = "kvantum";
-  };
 }

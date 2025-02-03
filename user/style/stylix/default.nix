@@ -74,18 +74,10 @@
         enable = true;
         plugin = "base16-nvim";
       };
+      qt.enable = true;
       spicetify.enable = true;
       vscode.enable = true;
       yazi.enable = true;
     };
   };
-  qt = {
-    enable = true;
-    platformTheme.name = "qtct";
-    style.name = "kvantum";
-  };
-  home.file.".config/Kvantum/catppuccin-mocha-teal".source = "${pkgs.catppuccin-kvantum.override {
-    variant = "mocha";
-    accent = "teal";
-  }}/share/Kvantum/catppuccin-mocha-teal";
 }
