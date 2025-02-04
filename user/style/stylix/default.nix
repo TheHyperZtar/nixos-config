@@ -43,7 +43,7 @@
       dark = "Papirus-Dark";
       package = pkgs.catppuccin-papirus-folders.override {
         flavor = "mocha";
-        accent = "teal";
+        accent = "blue";
       };
     };
     polarity = "dark";
