@@ -39,6 +39,7 @@
         "NIXOS_XDG_OPEN_USE_PORTAL,1"
         "WLR_RENDERER_ALLOW_SOFTWARE,1"
         "WLR_NO_HARDWARE_CURSORS,1"
+        "QT_QPA_PLATFORMTHEME,qt5ct"
         "MOZ_ENABLE_WAYLAND,1"
       ];
       monitor = [
