@@ -10,7 +10,6 @@
         fakeNitro.enable = true;
         permissionFreeWill.enable = true;
         permissionsViewer.enable = true;
-        noScreensharePreview.enable = false;
         viewIcons.enable = true;
         webKeybinds.enable = true;
         webScreenShareFixes.enable = true;
