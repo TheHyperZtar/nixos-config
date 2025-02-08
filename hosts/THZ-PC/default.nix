@@ -97,7 +97,7 @@
   nixpkgs = {
     config = {
       allowUnfree = true;
-      #permittedInsecurePackages = ["SDL_ttf-2.0.11"];
+      permittedInsecurePackages = ["SDL_ttf-2.0.11"];
     };
   };
   environment.systemPackages = with pkgs; [gparted];
