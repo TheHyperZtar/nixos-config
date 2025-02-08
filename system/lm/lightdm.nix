@@ -2,7 +2,7 @@
   services = {
     displayManager.defaultSession = "hyprland";
     xserver.displayManager.lightdm = {
-      enable = true;
+      enable = false;
       gtk = {
         enable = true;
       };
