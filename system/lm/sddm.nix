@@ -1,5 +1,5 @@
 {pkgs, ...}: {
-  enviroment.systemPackages = [pkgs.sddm-sugar-dark];
+  environment.systemPackages = [pkgs.sddm-sugar-dark];
   services.displayManager = {
     sddm = {
       enable = true;
