@@ -6,6 +6,7 @@
     font-manager
     grim
     hyprpicker
+    lxqt.lxqt-policykit
     nemo-with-extensions
     nemo-fileroller
     pavucontrol

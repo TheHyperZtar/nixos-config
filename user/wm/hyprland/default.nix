@@ -29,6 +29,7 @@
       ];
       exec-once = [
         "hyprctl setcursor ${builtins.toString config.stylix.cursor.size}"
+        "lxqt-policykit-agent"
         "swww-daemon -f xrgb"
         "maestral_qt"
       ];
@@ -172,21 +173,6 @@
         "SUPER, mouse:272, movewindow"
         "SUPER, mouse:273, resizewindow"
       ];
-    };
-  };
-  systemd = {
-    user.services.polkit-gnome-authentication-agent-1 = {
-      description = "polkit-gnome-authentication-agent-1";
-      wantedBy = ["graphical-session.target"];
-      wants = ["graphical-session.target"];
-      after = ["graphical-session.target"];
-      serviceConfig = {
-        Type = "simple";
-        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
-        Restart = "on-failure";
-        RestartSec = 1;
-        TimeoutStopSec = 10;
-      };
     };
   };
 }
