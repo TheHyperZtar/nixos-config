@@ -1,5 +1,5 @@
 {pkgs, ...}: {
-  environment.systemPackages = [pkgs.sddm-astronaut];
+  environment.systemPackages = [pkgs.sddm-astronaut pkgs.kdePackages.qtmultimedia];
   services.displayManager = {
     sddm = {
       enable = true;
