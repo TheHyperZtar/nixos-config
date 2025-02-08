@@ -1,12 +1,12 @@
 {pkgs, ...}: {
-  environment.systemPackages = [pkgs.sddm-sugar-dark];
+  environment.systemPackages = [pkgs.sddm-astronaut];
   services.displayManager = {
     sddm = {
       enable = true;
       wayland.enable = true;
       autoNumlock = false;
       package = pkgs.kdePackages.sddm;
-      theme = "sugar-dark";
+      theme = "sddm-astronaut-theme";
     };
     autoLogin = {
       enable = true;
