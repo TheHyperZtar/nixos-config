@@ -2,7 +2,6 @@
   imports = [
     ./hardware/drives/THZ-SSD.nix
     ./wm/hyprland.nix
-    ./lm/lightdm.nix
     ./services/pipewire.nix
     ./services/openrgb.nix
     ./style/stylix

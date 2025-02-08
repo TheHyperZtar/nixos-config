@@ -42,8 +42,10 @@
     keyMap = "la-latin1";
   };
 
-  hardware.bluetooth.enable = true;
-  hardware.bluetooth.powerOnBoot = true;
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
 
   services = {
     devmon.enable = true;
@@ -58,7 +60,7 @@
       drivers = [pkgs.hplip];
     };
     xserver = {
-      enable = true;
+      enable = false;
       xkb.layout = "latam";
       excludePackages = with pkgs; [xterm];
     };
@@ -95,7 +97,7 @@
   nixpkgs = {
     config = {
       allowUnfree = true;
-      permittedInsecurePackages = ["SDL_ttf-2.0.11"];
+      #permittedInsecurePackages = ["SDL_ttf-2.0.11"];
     };
   };
   environment.systemPackages = with pkgs; [gparted];

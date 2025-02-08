@@ -28,7 +28,6 @@
   wayland.windowManager.hyprland = {
     enable = true;
     xwayland.enable = true;
-    systemd.enable = false;
     settings = {
       env = [
         "QT_QPA_PLATFORMTHEME,qt5ct"
