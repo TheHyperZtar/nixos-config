@@ -4,7 +4,7 @@
   ...
 }: {
   imports = [
-    ./../../apps/terminal/kitty.nix
+    ./apps/kitty.nix
     ./apps/cliphist.nix
     ./apps/dunst.nix
     ./apps/hyprlock.nix
@@ -25,20 +25,12 @@
     };
   };
 
-  dconf.settings = {
-    "org/cinnamon/desktop/applications/terminal" = {
-      exec = "kitty";
-    };
-  };
-
   wayland.windowManager.hyprland = {
     enable = true;
     xwayland.enable = true;
+    systemd.enable = false;
     settings = {
       env = [
-        "NIXOS_XDG_OPEN_USE_PORTAL,1"
-        "WLR_RENDERER_ALLOW_SOFTWARE,1"
-        "WLR_NO_HARDWARE_CURSORS,1"
         "QT_QPA_PLATFORMTHEME,qt5ct"
         "MOZ_ENABLE_WAYLAND,1"
       ];

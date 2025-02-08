@@ -1,7 +1,6 @@
 {...}: {
   imports = [
     ./hardware/drives/THZ-SSD.nix
-    ./lm/sddm.nix
     ./wm/hyprland.nix
     ./services/pipewire.nix
     ./services/openrgb.nix
