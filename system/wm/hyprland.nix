@@ -27,8 +27,6 @@
     HandlePowerKey=ignore
   '';
 
-  programs.nm-applet.enable = true;
-
   xdg.terminal-exec = {
     enable = true;
     settings = {
