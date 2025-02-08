@@ -4,7 +4,7 @@
       enable = true;
       wayland.enable = true;
       autoNumlock = false;
-      package = [pkgs.kdePackages.sddm];
+      package = pkgs.kdePackages.sddm;
     };
     autoLogin = {
       enable = true;
