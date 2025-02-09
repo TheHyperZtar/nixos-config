@@ -55,11 +55,6 @@
       enable = true;
       drivers = [pkgs.hplip];
     };
-    xserver = {
-      enable = false;
-      xkb.layout = "latam";
-      excludePackages = with pkgs; [xterm];
-    };
   };
 
   security = {

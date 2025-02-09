@@ -62,12 +62,6 @@
 
   systemd.tpm2.enable = false;
 
-  services = {
-    xserver = {
-      videoDrivers = ["amdgpu" "i915"];
-    };
-  };
-
   hardware = {
     cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
     amdgpu = {
