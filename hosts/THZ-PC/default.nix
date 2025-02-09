@@ -15,14 +15,9 @@
   boot = {
     kernelPackages = pkgs.linuxPackages_latest;
     loader = {
-      timeout = 0;
-      grub = {
+      systemd-boot = {
         enable = true;
-        device = "nodev";
-        efiSupport = true;
-        efiInstallAsRemovable = true;
-        useOSProber = true;
-        timeoutStyle = "hidden";
+        editor = false;
         configurationLimit = 5;
       };
     };
