@@ -15,10 +15,10 @@
   boot = {
     kernelPackages = pkgs.linuxPackages_latest;
     loader = {
+      timeout = 0;
       systemd-boot = {
         enable = true;
         editor = false;
-        consoleMode = "max";
         configurationLimit = 5;
       };
     };
