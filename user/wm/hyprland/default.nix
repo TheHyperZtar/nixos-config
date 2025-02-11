@@ -51,10 +51,6 @@
         "col.active_border" = "rgb(${config.lib.stylix.colors.base0C})";
         "col.inactive_border" = "rgb(${config.lib.stylix.colors.base05})";
       };
-      debug = {
-        suppress_errors = true;
-        disable_logs = false;
-      };
       decoration = {
         rounding = 10;
         dim_special = 0.0;
@@ -80,6 +76,11 @@
         ];
       };
       misc = {
+        disable_hyprland_logo = true;
+      };
+      ecosystem = {
+        no_update_news = true;
+        no_donation_nag = true;
       };
       gestures = {
         workspace_swipe = true;
