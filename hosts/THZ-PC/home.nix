@@ -18,15 +18,10 @@
     mimeApps = {
       enable = true;
       defaultApplications = {
-        "image/jpeg" = ["org.gnome.Loupe.desktop"];
-        "image/png" = ["org.gnome.Loupe.desktop"];
-        "image/gif" = ["org.gnome.Loupe.desktop"];
-        "image/bmp" = ["org.gnome.Loupe.desktop"];
         "video/mp4" = ["mpv.desktop"];
         "video/x-matroska" = ["mpv.desktop"];
         "audio/mpeg" = ["mpv.desktop"];
         "audio/flac" = ["mpv.desktop"];
-        "inode/directory" = ["nemo.desktop"];
         "application/pdf" = ["firefox.desktop"];
         "text/plain" = ["nvim.desktop"];
       };
@@ -49,7 +44,6 @@
     hunspell
     hunspellDicts.es-mx
     libreoffice-fresh
-    loupe
     lua
     maestral-gui
     piper
