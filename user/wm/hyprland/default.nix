@@ -19,6 +19,8 @@
     settings = {
       env = [
         "QT_QPA_PLATFORMTHEME,qt5ct"
+        "MANGOHUD,1"
+        "MANGOHUD_DLSYM,1"
         "MOZ_ENABLE_WAYLAND,1"
       ];
       monitor = [

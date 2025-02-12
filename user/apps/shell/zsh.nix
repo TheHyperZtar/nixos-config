@@ -6,8 +6,8 @@
     syntaxHighlighting.enable = true;
     shellAliases = {
       ll = "ls -l";
-      sw = "git add *;git commit -a;git push;nh os switch";
-      up = "nix flake update --flake ~/.config/nixos;git add *;git commit -a;git push;nh os switch";
+      sw = "cd ~/.config/nixos;git add *;git commit -a;git push;nh os switch";
+      up = "cd ~/.config/nixos;nix flake update;git add *;git commit -a;git push;nh os switch";
       cd = "z";
     };
     oh-my-zsh = {
