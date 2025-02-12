@@ -9,7 +9,6 @@
     ./apps/multimedia
     ./apps/social/nixcord.nix
     ./apps/virtualization/qemu.nix
-    ./apps/shell/zsh.nix
     ./style/stylix
   ];
 }
