@@ -17,7 +17,7 @@ mkLibretroCore {
     owner = "parallel-launcher";
     repo = "parallel-n64";
     rev = "a55ddadc51a5d52d411e87e4e1f4461fdba2806b";
-    hash = "";
+    hash = "sha256-YGGPdy+57rc3CklceEjIMFDoyXHwxWVKT86iIieMhUI=";
   };
 
   extraBuildInputs = [
