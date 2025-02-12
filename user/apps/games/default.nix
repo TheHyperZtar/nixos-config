@@ -7,6 +7,7 @@
   home.sessionVariables = lib.mkForce {
     ESDE_APPDATA_DIR = ".es-de";
     MANGOHUD = 1;
+    MANGOHUD_DLSYM=1;
   };
 
   programs = {
