@@ -3,10 +3,6 @@
     enable = true;
     settings = {
       logo = {
-        source = ./nixos.png;
-        type = "kitty-direct";
-        height = 20;
-        width = 40;
         padding = {
           top = 5;
         };
@@ -152,42 +148,4 @@
       ];
     };
   };
-  home.file.".config/fastfetch/small.jsonc".text = ''
-    {
-      "logo": {
-      "source": "${config.programs.fastfetch.settings.logo.source}",
-      "type": "kitty-direct",
-      "height": 6,
-        "width": 12,
-     },
-      "display": {
-        "separator": "->   ",
-        "color": {
-          "separator": "red"
-        }
-      },
-      "modules": [
-        {
-          "key": "Distro      ",
-          "type": "os"
-        },
-        {
-          "key": "Shell       ",
-          "type": "shell"
-        },
-        {
-          "key": "Terminal    ",
-          "type": "terminal"
-        },
-        {
-          "key": "Display     ",
-          "type": "display"
-        },
-        {
-          "key": "Memory      ",
-          "type": "memory"
-        }
-      ]
-    }
-  '';
 }

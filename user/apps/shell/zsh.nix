@@ -4,11 +4,10 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
-    initExtra = "fastfetch -c /home/TheHyperZtar/.config/fastfetch/small.jsonc";
     shellAliases = {
       ll = "ls -l";
-      switch = "nh os switch";
-      update = "nh os switch -u";
+      sw = "git push;nh os switch";
+      up = "nix flake update --flake ~/.config/nixos;nh os switch";
       cd = "z";
     };
     oh-my-zsh = {
