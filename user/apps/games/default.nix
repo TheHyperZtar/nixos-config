@@ -7,7 +7,6 @@
   programs = {
     mangohud = {
       enable = true;
-      enableSessionWide = true;
       settings = {
         legacy_layout = false;
         gpu_stats = true;
@@ -23,7 +22,6 @@
         ram = true;
         fps = true;
         frametime = true;
-        no_display = true;
         position = "top-left";
         round_corners = 8;
         toggle_hud = "Shift_R+F12";

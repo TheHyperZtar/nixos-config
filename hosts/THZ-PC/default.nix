@@ -55,6 +55,7 @@
       enable = true;
       drivers = [pkgs.hplip];
     };
+    udev.packages = [pkgs.android-udev-rules];
   };
 
   security = {
@@ -81,7 +82,19 @@
     };
   };
 
-  programs.dconf.enable = true;
+  programs = {
+    adb.enable = true;
+    dconf.enable = true;
+    nano.enable = false;
+    nh = {
+      enable = true;
+      flake = "/home/TheHyperZtar/.config/nixos";
+      clean = {
+        enable = true;
+      };
+    };
+    zsh.enable = true;
+  };
 
   system.stateVersion = "25.05";
 

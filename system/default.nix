@@ -7,7 +7,6 @@
     ./services/openrgb.nix
     ./style/stylix
     ./apps/games
-    ./apps/shell/zsh.nix
     ./apps/cli/adb.nix
     ./apps/cli/nh.nix
     ./apps/misc/nix-ld.nix

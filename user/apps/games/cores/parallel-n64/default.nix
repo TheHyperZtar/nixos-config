@@ -11,13 +11,13 @@
 }:
 mkLibretroCore {
   core = "parallel-n64";
-  version = "2.21.1";
+  version = "2.22.0";
 
   src = fetchFromGitLab {
     owner = "parallel-launcher";
     repo = "parallel-n64";
-    rev = "7d807bdec8881fb7d12efd4f1ad29d2f580f8717";
-    hash = "sha256-Ma/MS/Gm6gvn64VPdLbAwiLBa6Bm21SlM2qyTAbdDGI=";
+    rev = "a55ddadc51a5d52d411e87e4e1f4461fdba2806b";
+    hash = "";
   };
 
   extraBuildInputs = [
