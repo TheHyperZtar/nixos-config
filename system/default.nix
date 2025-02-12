@@ -7,8 +7,6 @@
     ./services/openrgb.nix
     ./style/stylix
     ./apps/games
-    ./apps/cli/adb.nix
-    ./apps/cli/nh.nix
     ./apps/misc/nix-ld.nix
     ./apps/misc/appimage.nix
     ./apps/virtualization/waydroid.nix
