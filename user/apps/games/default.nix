@@ -8,7 +8,7 @@
     mangohud = {
       enable = true;
       settings = {
-        legacy_layaut = true;
+        legacy_layout = false;
         gpu_stats = true;
         gpu_temp = true;
         gpu_load_change = true;
