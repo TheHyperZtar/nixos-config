@@ -13,14 +13,16 @@
         gpu_load_change = true;
         gpu_load_value = "50,90";
         gpu_text = "GPU";
-        gpu_list = 0;
+        gpu_list = 1;
         cpu_stats = true;
         cpu_temp = true;
         cpu_load_change = true;
         core_load_change = true;
         cpu_load_value = "50,90";
         cpu_text = "CPU";
+        ram = true;
         fps = true;
+        frametime = false;
         round_corners = 8;
         no_display = true;
         toggle_hud = "Shift_R+F12";
