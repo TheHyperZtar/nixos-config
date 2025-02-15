@@ -8,7 +8,9 @@
     mangohud = {
       enable = true;
       settings = {
+        legacy_layaut = true;
         gpu_stats = true;
+        gpu_temp = true;
         gpu_load_change = true;
         gpu_load_value = "50,90";
         gpu_text = "GPU";
