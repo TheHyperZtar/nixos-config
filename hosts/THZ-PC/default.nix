@@ -104,5 +104,5 @@
       permittedInsecurePackages = ["SDL_ttf-2.0.11"];
     };
   };
-  environment.systemPackages = with pkgs; [gparted mangohud];
+  environment.systemPackages = with pkgs; [gparted];
 }
