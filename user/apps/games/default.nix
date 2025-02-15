@@ -1,9 +1,11 @@
-{lib, ...}: {
+{pkgs, lib, ...}: {
   imports = [
     ./games.nix
     ./emulators.nix
   ];
-
+  home.sessionVariables = {
+    LD_PRELOAD = "$LD_PRELOAD:${pkgs.mangohud}/lib/mangohud/libMangoHud.so:${pkgs.mangohud}/lib/mangohud/libMangoHud_opengl.so:${pkgs.mangohud}/lib/mangohud/libMangoHud_shim.so"
+  };
   programs = {
     mangohud = {
       enable = true;
