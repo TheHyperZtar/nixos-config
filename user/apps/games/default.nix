@@ -24,7 +24,6 @@
         cpu_text = "CPU";
         ram = true;
         fps = true;
-        fps_color_change = true;
         frame_timing = 0;
         round_corners = 8;
         no_display = true;
