@@ -68,7 +68,6 @@
         enable = true;
         variant256Colors = true;
       };
-      mangohud.enable = true;
       nixcord.enable = true;
       nixvim = {
         enable = true;
