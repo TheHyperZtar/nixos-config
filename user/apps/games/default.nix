@@ -6,6 +6,7 @@
   programs = {
     mangohud = {
       enable = true;
+      enableSessionWide = true;
       settings = {
         gpu_stats = true;
         gpu_temp = true;
