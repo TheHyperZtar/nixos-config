@@ -20,6 +20,7 @@
       env = [
         "QT_QPA_PLATFORMTHEME,qt5ct"
         "MANGOHUD,1"
+        "LD_PRELOAD,$LD_PRELOAD:${pkgs.mangohud}/lib/mangohud/libMangoHud.so:${pkgs.mangohud}/lib/mangohud/libMangoHud_opengl.so:${pkgs.mangohud}/lib/mangohud/libMangoHud_shim.so"
       ];
       monitor = [
         ",highres,auto,1"
