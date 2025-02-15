@@ -22,7 +22,7 @@
         cpu_text = "CPU";
         ram = true;
         fps = true;
-        frametime = false;
+        frame_timing = 0;
         round_corners = 8;
         no_display = true;
         toggle_hud = "Shift_R+F12";
