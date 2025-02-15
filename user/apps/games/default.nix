@@ -26,8 +26,8 @@
         toggle_hud = "Shift_R+F12";
         toggle_logging = "Shift_L+F2";
         upload_log = "F5";
-        font_size = lib.mkforce 20;
-        background_alpha = lib.mkforce 0.2;
+        font_size = lib.mkForce 20;
+        background_alpha = lib.mkForce 0.2;
       };
     };
   };
