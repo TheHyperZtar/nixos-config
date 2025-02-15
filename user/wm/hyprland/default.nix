@@ -19,6 +19,7 @@
     settings = {
       env = [
         "QT_QPA_PLATFORMTHEME,qt5ct"
+        "MANGOHUD,1"
       ];
       monitor = [
         ",highres,auto,1"
