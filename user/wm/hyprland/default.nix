@@ -17,9 +17,6 @@
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
-      env = [
-        "QT_QPA_PLATFORMTHEME,qt5ct"
-      ];
       monitor = [
         ",highres,auto,1"
         "desc:Sceptre Tech Inc Sceptre M24 0x00000001,1920x1080@165,0x0,1"
