@@ -103,5 +103,6 @@
       allowUnfree = true;
     };
   };
+  system.stateVersion = config.system.nixos.release;
   environment.systemPackages = with pkgs; [gparted];
 }
