@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       initial_session = {
-        command = "source /home/TheHyperZtar/.nix-profile/etc/profile.d/hm-session-vars.sh; Hyprland";
+        command = "Hyprland";
         user = "TheHyperZtar";
       };
       default_session = {
