@@ -23,6 +23,9 @@
         "desc:Samsung Electric Company SAMSUNG,1920x1080@60,0x-1080,1,mirror,desc:Sceptre Tech Inc Sceptre M24 0x00000001"
         "desc:Lenovo Group Limited LEN-A3/V1-E 0x00000001,1440x900@60,0x0,1"
       ];
+      env = [
+        "QT_QPA_PLATFORMTHEME,qt5ct"
+      ];
       exec-once = [
         "hyprctl setcursor ${builtins.toString config.stylix.cursor.size}"
         "lxqt-policykit-agent"
