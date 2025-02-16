@@ -96,12 +96,9 @@
     zsh.enable = true;
   };
 
-  system.stateVersion = "25.05";
-
   nixpkgs = {
     config = {
       allowUnfree = true;
-      permittedInsecurePackages = ["SDL_ttf-2.0.11"];
     };
   };
   environment.systemPackages = with pkgs; [gparted];

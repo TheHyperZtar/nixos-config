@@ -1,8 +1,34 @@
 {pkgs, ...}: {
-  home.username = "TheHyperZtar";
-  home.homeDirectory = "/home/TheHyperZtar";
-  home.stateVersion = "25.05";
-  programs.home-manager.enable = true;
+  home = {
+    username = "TheHyperZtar";
+    homeDirectory = "/home/TheHyperZtar";
+    packages = with pkgs; [
+      bottles
+      cmatrix
+      gimp
+      handbrake
+      hunspell
+      hunspellDicts.es-mx
+      libreoffice-fresh
+      lua
+      maestral-gui
+      piper
+      pipes
+      playerctl
+      qalculate-gtk
+      qbittorrent
+      r2modman
+      vscodium
+      wev
+      yt-dlg
+      zapzap
+    ];
+  };
+  programs = {
+    home-manager.enable = true;
+    htop.enable = true;
+    yt-dlp.enable = true;
+  };
   imports = [./../../user];
   nixpkgs = {
     config = {
@@ -32,29 +58,4 @@
       };
     };
   };
-  programs.htop.enable = true;
-
-  programs.yt-dlp.enable = true;
-
-  home.packages = with pkgs; [
-    bottles
-    cmatrix
-    gimp
-    handbrake
-    hunspell
-    hunspellDicts.es-mx
-    libreoffice-fresh
-    lua
-    maestral-gui
-    piper
-    pipes
-    playerctl
-    qalculate-gtk
-    qbittorrent
-    r2modman
-    vscodium
-    wev
-    yt-dlg
-    zapzap
-  ];
 }
