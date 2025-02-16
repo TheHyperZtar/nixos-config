@@ -1,4 +1,5 @@
 {
+  config,
   lib,
   pkgs,
   inputs,
@@ -79,6 +80,7 @@
     backupFileExtension = "backup";
     users."TheHyperZtar" = {
       imports = [./home.nix];
+      home.stateVersion = config.system.nixos.release;
     };
   };
 

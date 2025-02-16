@@ -1,8 +1,7 @@
-{config, pkgs, ...}: {
+{pkgs, ...}: {
   home = {
     username = "TheHyperZtar";
     homeDirectory = "/home/TheHyperZtar";
-    stateVersion = config.system.nixos.release;
     packages = with pkgs; [
       bottles
       cmatrix
