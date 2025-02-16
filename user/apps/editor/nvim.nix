@@ -1,15 +1,10 @@
 {
-  lib,
   inputs,
   ...
 }: {
   imports = [
     inputs.nixvim.homeManagerModules.nixvim
   ];
-
-  home.sessionVariables = lib.mkForce {
-    EDITOR = "nvim";
-  };
 
   programs.nixvim = {
     enable = true;
