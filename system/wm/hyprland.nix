@@ -1,14 +1,6 @@
 {...}: {
-  programs = {
-    hyprland = {
-      enable = true;
-    };
-  };
-
-  services.logind.extraConfig = ''
-    HandlePowerKey=ignore
-  '';
-
+  programs.hyprland.enable = true;
+  services.logind.powerKey = "ignore";
   xdg.terminal-exec = {
     enable = true;
     settings = {
