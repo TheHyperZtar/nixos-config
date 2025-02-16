@@ -24,7 +24,7 @@
         "desc:Lenovo Group Limited LEN-A3/V1-E 0x00000001,1440x900@60,0x0,1"
       ];
       exec-once = [
-        "~/.nix-profile/etc/profile.d/hm-session-vars.sh"
+        "source ~/.nix-profile/etc/profile.d/hm-session-vars.sh"
         "lxqt-policykit-agent"
         "swww-daemon -f xrgb"
         "maestral_qt"
