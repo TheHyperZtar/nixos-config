@@ -10,6 +10,5 @@
     ./apps/misc/nix-ld.nix
     ./apps/misc/appimage.nix
     ./apps/virtualization/waydroid.nix
-    ./apps/multimedia/obs.nix
   ];
 }
