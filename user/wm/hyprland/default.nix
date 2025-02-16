@@ -17,9 +17,6 @@
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
-      env = [
-        "QT_QPA_PLATFORMTHEME,qt5ct"
-      ];
       monitor = [
         ",highres,auto,1"
         "desc:Sceptre Tech Inc Sceptre M24 0x00000001,1920x1080@165,0x0,1"
@@ -27,7 +24,6 @@
         "desc:Lenovo Group Limited LEN-A3/V1-E 0x00000001,1440x900@60,0x0,1"
       ];
       exec-once = [
-        "hyprctl setcursor ${builtins.toString config.stylix.cursor.size}"
         "lxqt-policykit-agent"
         "swww-daemon -f xrgb"
         "maestral_qt"
