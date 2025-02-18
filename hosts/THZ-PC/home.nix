@@ -17,7 +17,6 @@
       playerctl
       qalculate-gtk
       qbittorrent
-      r2modman
       vscodium
       wev
       yt-dlg
