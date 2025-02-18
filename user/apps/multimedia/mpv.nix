@@ -7,6 +7,7 @@
     enable = true;
     config = {
       profile = "high-quality";
+      ao = "pulse";
       vo = "gpu-next";
       scale-antiring = 0.6;
       dither-depth = 8;
