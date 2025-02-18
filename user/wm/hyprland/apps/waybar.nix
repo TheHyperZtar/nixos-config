@@ -160,7 +160,7 @@
           on-click = "pavucontrol";
         };
         "clock" = {
-          on-click-middle = "wpctl set-volume @DEFAULT_SINK@ 150% ; mpv --fs --video-scale-x=3.2 --video-scale-y=2 --no-input-cursor --no-input-builtin-bindings /home/TheHyperZtar/Videos/Videoclips/Tiktok/Jonkler.mp4 ; wpctl set-volume @DEFAULT_SINK@ 70%";
+          on-click-middle = "wpctl set-volume @DEFAULT_SINK@ 150% ; mpv --fs --video-scale-x=3.2 --video-scale-y=2 --no-input-cursor --no-input-builtin-bindings /home/TheHyperZtar/Videos/Videoclips/TikTok/Jonkler.mp4 ; wpctl set-volume @DEFAULT_SINK@ 70%";
           format = "{:%I:%M %p}";
           format-alt = "{:%d %B, %Y - %I:%M %p}";
           tooltip = true;
