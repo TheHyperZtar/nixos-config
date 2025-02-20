@@ -2,8 +2,6 @@
   imports = [inputs.nixcord.homeManagerModules.nixcord];
   programs.nixcord = {
     enable = true;
-    discord.enable = true;
-    vesktop.enable = false;
     config = {
       frameless = true;
       plugins = {

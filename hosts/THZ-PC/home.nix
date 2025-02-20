@@ -11,7 +11,7 @@
       maestral-gui
       piper
       qalculate-gtk
-      qbittorrent
+      transmission_4-gtk
       zapzap
     ];
   };

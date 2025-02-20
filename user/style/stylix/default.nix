@@ -48,7 +48,6 @@
     };
     polarity = "dark";
     targets = {
-      btop.enable = true;
       cava = {
         enable = true;
         rainbow.enable = true;

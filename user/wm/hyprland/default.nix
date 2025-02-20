@@ -99,7 +99,7 @@
         "SUPER, Q, killactive"
         "SUPER, F, fullscreen"
         "SUPER SHIFT, F, fullscreen, 1"
-        "SUPER, E, exec, nemo"
+        "SUPER, E, exec, yazi"
         "SUPER, W, exec, firefox"
         "SUPER, R, exec, rofi -show drun -show-icons"
         "SUPER SHIFT, R, exec, rofimoji --use-icons -a copy --max-recent 10 --skin-tone light --no-frecency"
@@ -107,7 +107,7 @@
         "SUPER, P, exec, wlogout"
         ''SUPER, S, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | wl-copy''
         ''SUPER SHIFT, S, exec, grim -g "$(slurp -d)" - | ${pkgs.imagemagick}/bin/magick - -shave 1x1 PNG:- | swappy -f -''
-        "SUPER, D, exec, vesktop||discord"
+        "SUPER, D, exec, discord"
         "SUPER, Z, exec, zapzap"
         "SUPER, M, exec, spotify"
         "SUPER, C, exec, hyprpicker -a"

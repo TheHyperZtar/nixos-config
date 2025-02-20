@@ -30,7 +30,7 @@
         };
         "custom/filemanager" = {
           format = "";
-          on-click = "nemo";
+          on-click = "yazi";
           tooltip = false;
         };
         "custom/browser" = {
@@ -236,7 +236,7 @@
         padding-left: 0px;
       }
       tooltip {
-        background-color: #${config.lib.stylix.colors.base00};
+        background-color: #${config.lib.stylix.colors.base01};
         border: none;
         border-radius: 10px;
       }
