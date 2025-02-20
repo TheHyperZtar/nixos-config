@@ -30,7 +30,7 @@
         };
         "custom/filemanager" = {
           format = "";
-          on-click = "yazi";
+          on-click = "kitty -e yazi";
           tooltip = false;
         };
         "custom/browser" = {
