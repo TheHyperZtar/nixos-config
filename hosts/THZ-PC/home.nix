@@ -4,29 +4,20 @@
     homeDirectory = "/home/TheHyperZtar";
     packages = with pkgs; [
       bottles
-      cmatrix
       gimp
-      handbrake
       hunspell
       hunspellDicts.es-mx
       libreoffice-fresh
-      lua
       maestral-gui
       piper
-      pipes
-      playerctl
       qalculate-gtk
       qbittorrent
-      vscodium
-      wev
-      yt-dlg
       zapzap
     ];
   };
   programs = {
     home-manager.enable = true;
     htop.enable = true;
-    yt-dlp.enable = true;
   };
   imports = [./../../user];
   nixpkgs = {

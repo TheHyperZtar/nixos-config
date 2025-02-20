@@ -47,9 +47,9 @@
           exec = "waybar-mediaplayer.py --player spotify";
           format = "{}";
           return-type = "json";
-          on-click = "playerctl -p spotify play-pause";
-          on-scroll-up = "playerctl -p spotify next";
-          on-scroll-down = "playerctl -p spotify previous";
+          on-click = "${pkgs.playerctl}/bin/playerctl -p spotify play-pause";
+          on-scroll-up = "${pkgs.playerctl}/bin/playerctl -p spotify next";
+          on-scroll-down = "${pkgs.playerctl}/bin/playerctl -p spotify previous";
           tooltip = false;
         };
         "custom/update" = {
