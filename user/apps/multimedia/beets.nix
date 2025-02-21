@@ -12,7 +12,7 @@
         default = "$albumartist/$album/$title";
       };
       replace = {
-        "/" = "∕";
+        "'/'" = "∕";
       };
     };
   };
