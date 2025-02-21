@@ -76,7 +76,6 @@
       qt.enable = true;
       spicetify.enable = true;
       vscode.enable = true;
-      yazi.enable = true;
     };
   };
 }

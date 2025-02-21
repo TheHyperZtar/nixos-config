@@ -1,23 +1,20 @@
 {...}: {
   programs.beets = {
-    enable = false;
+    enable = true;
     settings = {
-      plugins = ["mbsync" "fetchart"];
-      directory = "~/Music";
+      plugins = [];
+      directory = "~/MusicTest";
       import = {
         copy = true;
         write = true;
-        unmatched = "~/Music/Miscellaneous";
+        unmatched = "~/MusicTest/Miscellaneous";
       };
       paths = {
         default = "$albumartist/$album/$title";
+        miscellaneous = "Miscellaneous/$albumartist/$album/$title";
       };
       replace = {
         "_" = "∕";
-      };
-      mbsync = {
-        metadata = ["artist" "album" "albumartist" "title" "track" "year"];
-        save_album_art = true;
       };
     };
   };
