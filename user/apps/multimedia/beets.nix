@@ -2,14 +2,17 @@
   programs.beets = {
     enable = true;
     settings = {
-      id3v23 = false;
-      replace = {
-        "/" = "∕";
+      directory = "~/Music";
+      import = {
+        copy = true;
+        write = true;
       };
       plugins = ["fetchart"];
-      fetchart = {
-        sources = ["beetcamp coverart itunes amazon"];
-        high_resolution = true;
+      paths = {
+        default = "$albumartist/$album/$title";
+      };
+      replace = {
+        "/" = "∕";
       };
     };
   };
