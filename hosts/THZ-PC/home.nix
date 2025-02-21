@@ -9,6 +9,7 @@
       hunspellDicts.es-mx
       libreoffice-fresh
       maestral-gui
+      picard
       piper
       qalculate-gtk
       transmission_4-gtk

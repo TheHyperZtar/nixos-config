@@ -1,6 +1,6 @@
 {...}: {
   programs.beets = {
-    enable = true;
+    enable = false;
     settings = {
       plugins = ["mbsync" "fetchart"];
       directory = "~/Music";
