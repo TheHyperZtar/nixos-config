@@ -30,7 +30,7 @@
         };
         "custom/filemanager" = {
           format = "";
-          on-click = "kitty -e yazi";
+          on-click = "EDITOR=nvim kitty -e yazi";
           tooltip = false;
         };
         "custom/browser" = {

@@ -99,7 +99,7 @@
         "SUPER, Q, killactive"
         "SUPER, F, fullscreen"
         "SUPER SHIFT, F, fullscreen, 1"
-        "SUPER, E, exec, kitty -e yazi"
+        "SUPER, E, exec, EDITOR=nvim kitty -e yazi"
         "SUPER, W, exec, firefox"
         "SUPER, R, exec, rofi -show drun -show-icons"
         "SUPER SHIFT, R, exec, rofimoji --use-icons -a copy --max-recent 10 --skin-tone light --no-frecency"
