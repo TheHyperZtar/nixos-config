@@ -2,6 +2,7 @@
   programs.beets = {
     enable = true;
     settings = {
+      plugins = ["mbsync" "fetchart"];
       directory = "~/Music";
       import = {
         copy = true;
