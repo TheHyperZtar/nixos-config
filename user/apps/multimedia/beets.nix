@@ -1,7 +1,7 @@
 {...}: {
   programs.beets = {
     enable = true;
-    setting = {
+    settings = {
       id3v23 = false;
       replace = {
         "/" = "∕";
