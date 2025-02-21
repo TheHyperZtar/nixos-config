@@ -17,6 +17,8 @@
     hyprpicker
     loupe
     lxqt.lxqt-policykit
+    nemo-fileroller
+    nemo-with-extensions
     pavucontrol
     slurp
     swww
