@@ -12,7 +12,6 @@
       picard
       piper
       qalculate-gtk
-      transmission_4-gtk
       zapzap
     ];
   };
