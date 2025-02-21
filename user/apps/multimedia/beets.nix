@@ -7,12 +7,11 @@
         copy = true;
         write = true;
       };
-      plugins = ["fetchart"];
       paths = {
         default = "$albumartist/$album/$title";
       };
       replace = {
-        "'/'" = "∕";
+        "[/]" = "∕";
       };
     };
   };
